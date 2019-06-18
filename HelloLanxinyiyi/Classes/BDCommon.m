@@ -5,9 +5,9 @@
 //  Created by zhangtianfu on 2019/6/18.
 //
 
-#import "Common.h"
+#import "BDCommon.h"
 
-@implementation Common
+@implementation BDCommon
 
 + (NSInteger)add:(NSInteger)a with:(NSInteger)b {
     return a + b;

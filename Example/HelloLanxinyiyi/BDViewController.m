@@ -7,7 +7,7 @@
 //
 
 #import "BDViewController.h"
-#import <HelloLanxinyiyi/Common.h>
+#import <HelloLanxinyiyi/BDCommon.h>
 
 @interface BDViewController ()
 
@@ -20,8 +20,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSInteger a = [Common add:10 with:20];
-    NSInteger b = [Common reduce:10 with:20];
+    NSInteger a = [BDCommon add:10 with:20];
+    NSInteger b = [BDCommon reduce:10 with:20];
 
     NSLog(@"%zd %zd", a, b);
     

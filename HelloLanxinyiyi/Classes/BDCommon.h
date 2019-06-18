@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Common : NSObject
+@interface BDCommon : NSObject
 
 + (NSInteger)add:(NSInteger)a with:(NSInteger)b;
 
