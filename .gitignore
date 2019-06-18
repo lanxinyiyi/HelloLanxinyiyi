@@ -35,3 +35,6 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 # Pods/
+
+Example/HelloLanxinyiyi.xcworkspace/contents.xcworkspacedata
+Example/Pods

@@ -1,0 +1,16 @@
+PODS:
+  - HelloLanxinyiyi (0.1.0)
+
+DEPENDENCIES:
+  - HelloLanxinyiyi (from `../`)
+
+EXTERNAL SOURCES:
+  HelloLanxinyiyi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HelloLanxinyiyi: 171d14f5655207a731a83b28c5954d65e2a1d536
+
+PODFILE CHECKSUM: 2984c2698da43e064f5e1d30ba286b4736b9d86f
+
+COCOAPODS: 1.7.2

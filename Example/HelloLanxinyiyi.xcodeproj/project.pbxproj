@@ -58,13 +58,13 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		6026D53D6AF205F72FAD07A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6026D53D6AF205F72FAD07A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C00C94A5B82849BA445A9A9 /* Pods_HelloLanxinyiyi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLanxinyiyi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F4B5FDF0980B9DE3A513A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BACE9A3A6FB2B46264D99D1A /* HelloLanxinyiyi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HelloLanxinyiyi.podspec; path = ../HelloLanxinyiyi.podspec; sourceTree = "<group>"; };
+		9F4B5FDF0980B9DE3A513A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BACE9A3A6FB2B46264D99D1A /* HelloLanxinyiyi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HelloLanxinyiyi.podspec; path = ../HelloLanxinyiyi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBE7EE04037216248444209D /* Pods-HelloLanxinyiyi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLanxinyiyi_Tests.release.xcconfig"; path = "Target Support Files/Pods-HelloLanxinyiyi_Tests/Pods-HelloLanxinyiyi_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E99A23C2242010851A34A193 /* Pods-HelloLanxinyiyi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLanxinyiyi_Example.debug.xcconfig"; path = "Target Support Files/Pods-HelloLanxinyiyi_Example/Pods-HelloLanxinyiyi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				486F2A7A623E6ABBBF660C3D /* Pods-HelloLanxinyiyi_Tests.debug.xcconfig */,
 				CBE7EE04037216248444209D /* Pods-HelloLanxinyiyi_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
