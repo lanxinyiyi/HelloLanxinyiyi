@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HelloLanxinyiyi_Example' do
+  pod 'HelloLanxinyiyi', :path => '../'
+
+  target 'HelloLanxinyiyi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
